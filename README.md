@@ -1,7 +1,7 @@
 # Weather App
 
 ## Live Demo
- [Live Demo of Weather App](https://weather-forecast-app-drab.vercel.app/)
+ [Live Demo of Weather App](https://weather-forecast-app-drab.vercel.app/) https://weather-forecast-app-drab.vercel.app/
 
 A weather forecast application built with React.js that allows users to check the current weather details and a 5-day forecast for a selected city.
 

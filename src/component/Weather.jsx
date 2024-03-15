@@ -71,7 +71,7 @@ const Weather = () => {
     };
     getFutureData();
     // eslint-disable-next-line
-  }, [isCelsius]);
+  }, [isCelsius, weatherData]);
 
   // Gets weather dataset of unique dates (5 days)
   const uniqueDates = [

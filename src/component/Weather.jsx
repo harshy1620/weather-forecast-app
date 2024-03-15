@@ -14,11 +14,8 @@ const Weather = () => {
   const [futureData, setFutureData] = useState(null);
   const [isCelsius, setIsCelsius] = useState(true);
 
-  // const apiKey = process.env.REACT_APP_API_KEY;
-  // const apiUrl = process.env.REACT_APP_BASE_URL;
-
-  const apiKey = "000d82c60e9a1b7fa7d21fff43481fc8";
-  const apiUrl = "https://api.openweathermap.org/data/";
+  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiUrl = process.env.REACT_APP_BASE_URL;
 
   const toggleTemperatureUnit = () => {
     setIsCelsius((prevIsCelsius) => !prevIsCelsius);
